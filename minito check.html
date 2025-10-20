@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Professional Cake Business Portfolio showcasing our delicious cakes, client testimonials, and services." />
+  <meta name="keywords" content="Cake, Cake Business, Cakes Portfolio, Cake Case Studies, Bakery, Cake Bakery" />
+  <meta name="author" content="Cake Business" />
+  <title>Cake Business Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+  <div class="logo-container">
+    <img src="https://i.pinimg.com/736x/0b/60/8b/0b608b8338880e729348c7d2334d00a8.jpg" alt="SweetDelights Bakery logo" class="logo" />
+    <h1>SweetDelights Bakery</h1>
+    <p>Delicious handcrafted cakes that make every moment special</p>
+  </div>
+  <nav aria-label="Primary navigation">
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#portfolio">Our Creations</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    <section id="intro" aria-label="Introduction">
+      <h2>Welcome to Delightful Cakes</h2>
+      <p class="intro">
+        We craft made-to-order cakes for every occasion — from birthdays to weddings. Combining artistry, fresh ingredients, and heartfelt care, our cakes not only taste delightful but look stunning too.
+      </p>
+    </section>
+
+  <main class="container" role="main">
+    <section id="portfolio" aria-label="Portfolio Projects and Case Studies">
+      <h2>Our Creations</h2>
+      <div class="slider" aria-live="polite">
+        <div class="slides" id="slides">
+          <article class="slide" aria-label="Chocolate Fudge Cake">
+            <img src="https://www.mybakingaddiction.com/wp-content/uploads/2023/06/chocolate-strawberry-cake-on-stand-hero.jpg" alt="Chocolate Fudge Cake with chocolate ganache and berries" />
+            <div class="slide-caption">Chocolate Fudge Cake: Rich, moist, and topped with fresh berries.</div>
+
+               </article>
+          <article class="slide" aria-label="Wedding Multi-layered Cake">
+            <img src="https://i.pinimg.com/736x/66/b5/e0/66b5e0a441f86e2f5548b08c6d822471.jpg" alt="Elegant multi-layered wedding cake with white icing and floral decorations" />
+            <div class="slide-caption">Elegant Wedding Cake: Classic white with intricate floral details.</div>
+           
+          </article>
+          <article class="slide" aria-label="Birthday Themed Cake">
+            <img src="https://i.ytimg.com/vi/1IFaMFYbeCY/maxresdefault.jpg" alt="Colorful birthday cake with confetti decoration and candles" />
+            <div class="slide-caption">Birthday Special: Bright, colorful confetti cake for celebrations.</div>
+            
+          </article>
+          <article class="slide" aria-label="Cupcake Assortment">
+            <img src="https://d2j6dbq0eux0bg.cloudfront.net/images/12861062/658707623.jpg" alt="Variety of cupcakes with different toppings and frosting" />
+            <div class="slide-caption">Cupcake Assortment: Perfect bite-sized delights with assorted flavors.</div>
+            
+          </article>
+        </div>
+        <div class="slider-buttons">
+          <button aria-label="Previous slide" id="prev">&#10094;</button>
+          <button aria-label="Next slide" id="next">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" aria-label="Client Testimonials">
+      <h2>What Our Clients Say</h2>
+      <blockquote class="testimonial">
+        "SweetDelights made our wedding cake a beautiful centerpiece that everyone admired! Beyond delicious."
+        <div class="testimonial-author">— Jwangma b.</div>
+      </blockquote>
+      <blockquote class="testimonial">
+        "Their birthday cakes are always so creative and tasty. I wouldn’t trust anyone else to make my special day sweeter."
+        <div class="testimonial-author">— Nisha S.</div>
+      </blockquote>
+      <blockquote class="testimonial">
+        "Amazing cupcakes and service! The team is super friendly and attentive to details."
+        <div class="testimonial-author">— Priya S.</div>
+      </blockquote>
+      <blockquote class="testimonial">
+        "SweetDelights made the perfect cake for our wedding day. Every detail was flawless!"
+        <div class="testimonial-author">— Chong h.</div>
+      </blockquote>
+      <blockquote class="testimonial">
+        "Delicious cakes and fantastic customer service. Our birthday cake was a hit!"
+        <div class="testimonial-author">— Muskan T.</div>
+      </blockquote>
+      <blockquote class="testimonial">
+        "I always recommend SweetDelights for custom cakes. Beautiful and tasty creations."
+        <div class="testimonial-author">— Sneha m.</div>
+      </blockquote>
+    </section>
+
+    <section id="contact" aria-label="Contact Form">
+  <h2>Contact Us</h2>
+  <form id="contactForm" aria-describedby="contactDesc" novalidate>
+    <p id="contactDesc">Have inquiries or want to order a custom cake? Reach out to us!</p>
+    <label for="name">Name *</label>
+    <input type="text" id="name" name="name" required placeholder="Your full name" aria-required="true" />
+    
+     <label for="number">Contact Number</label>
+     <input type="number"placeholder="10-digit number"required>
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" rows="5" required placeholder="Write your message here" aria-required="true"></textarea>
+    
+    <button type="submit">Send Message</button>
+    <p id="formMessage" role="alert" aria-live="assertive"></p>
+  </form>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SweetDelights Bakery. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
